@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "jest": {
-    "transformIgnorePatterns": ["/node_modules/(?!(axios)/)"]
+    "transformIgnorePatterns": ["/node_modules/(?!(axios)/)"],
+    "resetMocks": false
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
